@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Power Corporation</title>
+    <link rel="icon" href="ThePowerOfMyHuman.png">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        *::selection{
+            background: #00a2ff;
+            color: black;
+        }
+        *::-webkit-scrollbar{
+            background: #0d0b16;
+        }
+        *::-webkit-scrollbar-thumb{
+            background: #050409;
+            border-radius: 10px;
+        }
+        body{
+            font-family: Poppins;
+            color: white;
+            height: 2000px;
+            background: #120f20;
+        }
+        #navigation_bar{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 80px;
+            color: rgba(255, 255, 255, 0.642);
+            margin-top: 10px;
+
+        }
+        #navigation_bar_content_btn{
+            margin: 10px;
+            font-size: 20px;
+            border: none;
+            background: none;
+            color: white;
+            font-family: Poppins;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        #navigation_bar_content_btn:hover{
+            margin: 10px;
+            font-size: 20px;
+            border: none;
+            background: none;
+            color: #00a2ff;
+            font-family: Poppins;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        #banner{
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 850px;
+            z-index: -9999;
+            object-fit: cover;
+        }
+        #logo{
+            width: 241px;
+            height: 138px;
+        }
+        p{
+            color: rgba(255, 255, 255, 0.642);
+            font-size: 20px;
+        }
+        #content_01{
+            width: 433px;
+            margin-left: 50px;
+            text-anchor: middle;
+        }
+        h1{
+            font-size: 50px;
+            width: 700px;
+        }
+        #yeah{
+            position: absolute;
+            right: 188px;
+            top: 256px;
+            width: 300px;
+        }
+        #yeahboi{
+            position: absolute;
+            right: 188px;
+            top: 1051px;
+            width: 357px;
+            transform: rotate(10deg);
+            box-shadow: 0px 0px 30px black;
+        }
+        #logo_btn{
+            cursor: pointer;
+            background: none;
+            border: none;
+            width: 238px;
+            height: 123px;
+            margin-right: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="navigation_bar">
+        <a href="index.html">
+            <button id="logo_btn">
+                <img id="logo" src="VerySeriousLogo.png">
+            </button>            
+        </a>
+        <a href="creations.html">
+            <button id="navigation_bar_content_btn">mods</button>
+        </a>
+        <a href="about.html">
+            <button id="navigation_bar_content_btn">about</button>
+        </a>
+        <a href="team.html">
+            <button id="navigation_bar_content_btn">team</button>
+        </a>
+    </div>
+    <main>
+        <img id="banner" src="Background.jpg">
+        <div class="spacebox">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="content_01">
+             <h1>We make games, SucreEngine, and mods.</h1>
+             <p>Human Power is a video game and modding company founded in 2023. Human Power is creators of the SucreEngine® and People Box: Fun And Life.</p>
+             <img id="yeah" src="ThePowerOfMyHuman.png">
+        </div>
+        <div class="spacebox">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+        <div id="content_01">
+            <h1>What is SucreEngine?</h1>
+            <p>SucreEngine® is a game engine made by Human Power for developpers, made in 2023. He is the first game engine so simple, he uses checkboxes and also, if the developpers want to implement their custom features, they can uses the SucreEngine® own programming language, the Sucresharp (or S# for short). SucreEngine® is totally free but currently in development, he will be available soon on our website.</p>
+            <img id="yeahboi" src="SucreEngine.jpg">
+        </div>
+    </main>
+</body>
+</html>
